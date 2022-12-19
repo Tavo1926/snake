@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="icon" href="./fondo/culebra-removebg-preview.png">
+</head>
+<body>
+    <h1>Snake Game</h1>
+    <div id="mensaje">Tu puntaje:
+        <span id="puntaje"></span>
+    </div>
+    <section id="ver-mapa">
+        <canvas id="mapa"></canvas>
+        <button class="botones" onmousedown="moverArriba()">⇧</button>
+        <div>
+            <button class="botones" onmousedown="moverIzquierda()">⇦</button>
+            <button class="botones" onmousedown="moverAbajo()">⇩</button>
+            <button class="botones" onmousedown="moverDerecha()">⇨</button>
+        </div>
+    </section>
+
+    
+   
+    <script src="./Serpiente.js"></script>
+</body>
+</html>
